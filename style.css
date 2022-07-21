@@ -139,6 +139,11 @@ h2{
 
 .formations h2{
 margin-top: 2em;
+font-size: 1.2em;
+}
+
+.formations p{
+    color: rgb(85, 82, 82);
 }
 
 .experiences{
@@ -150,8 +155,20 @@ margin-top: 2em;
 
 .experiences h2{
 margin-top: 2em;
+font-size: 1.2em;
 }
 
+.experiences p{
+    color: rgb(85, 82, 82);
+}
+
+.formations span{
+    font-weight: lighter;
+}
+
+.experiences span{
+    font-weight: lighter;
+}
 @media (max-width: 480px) {
     header{
         display: flex;
