@@ -10,7 +10,9 @@ body{
 header{
     height: 250px;
     display:flex;
-    background-image: url("images/galaxie.jpg");
+    background-image: url("images/Banniere.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
@@ -41,6 +43,11 @@ li{
 
 a{
     color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:blue;
 }
 .menu{
     width: 100%;
@@ -83,6 +90,8 @@ a{
 .parcours img{
     width: 300px;
     height: 200px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px black;
 }
 
 .contact{
@@ -99,6 +108,7 @@ a{
 .coordonnees{
     margin-top: 20px;
 }
+
 
 .reseau{
     margin-top: 40px;
@@ -120,6 +130,27 @@ h2{
     text-align:center;
 }
 
+.formations{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.formations h2{
+margin-top: 2em;
+}
+
+.experiences{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.experiences h2{
+margin-top: 2em;
+}
 
 @media (max-width: 480px) {
     header{
