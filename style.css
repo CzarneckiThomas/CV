@@ -197,3 +197,35 @@ font-size: 1.2em;
         max-width: 40%;
     }
 }
+
+@media (max-width: 480px) {
+    header img{
+        width: 35%;
+        margin: auto;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu ul{
+        display : none;
+    }
+}
+
+@media (max-width: 480px) {
+    .reseau{
+        margin-top: 0;
+       }
+}
+
+@media (max-width: 480px) {
+    .techno img{
+        width: 50px;
+       }
+}
+
+@media (max-width: 480px) {
+    .parcours h2{
+        margin-bottom: 25px;
+       }
+}
