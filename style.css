@@ -109,6 +109,13 @@ a:hover{
     margin-top: 20px;
 }
 
+.coordonnees a{
+    color: black;
+}
+
+.coordonnees p{
+    font-size: 1.1em;
+}
 
 .reseau{
     margin-top: 40px;
