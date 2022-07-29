@@ -178,23 +178,29 @@ font-size: 1.2em;
 }
 
 .formatpdf{
-    background-color: orange;
+    background-color: rgb(230, 124, 3);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     padding: 0 5px;
     font-size: 1.5em;
+    margin-top: 5px;
+    box-shadow: 2px 5px 0px rgb(226, 177, 86);
+    border: 2px solid rgb(247, 157, 3)
 }
 
-.formatpdf {
+.fleche {
     color:rgb(230, 48, 24);
-    animation: clignote 2s linear infinite;
+    animation: clignote 1s linear infinite;
   }
 
-.formatpdf img{
-    max-width:100%;
-}
+  .fleche{
+      display: block;
+      margin-top: 20px;
+      max-width: 2%;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
 @keyframes clignote {  
     50% { opacity: 0; }
