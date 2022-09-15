@@ -78,6 +78,11 @@ a:hover{
    margin-top: 3em;
 }
 
+.presentation p{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
 .parcours{
     margin-top: 5em;
     display:flex;
@@ -95,7 +100,7 @@ a:hover{
 }
 
 .contact{
-    height: 650px;
+    height: 660px;
     background-color: rgb(184, 179, 179);
     text-align: center;
     padding-left:10px;
@@ -105,6 +110,7 @@ a:hover{
 
 .contact img{
     max-width:10%;
+
 }
 .coordonnees{
     margin-top: 20px;
@@ -138,34 +144,33 @@ h2{
 
 .formations{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
+    margin: auto;
+   
 }
 
 .formations h2{
 margin-top: 2em;
-font-size: 1.2em;
+font-size: 1.4em;
 }
 
 .formations p{
     color: rgb(85, 82, 82);
+    font-size: 1.2em
 }
 
 .experiences{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
+    margin: auto;
 }
 
 .experiences h2{
 margin-top: 2em;
-font-size: 1.2em;
+font-size: 1.4em;
 }
 
 .experiences p{
     color: rgb(85, 82, 82);
+    font-size: 1.2em
 }
 
 .formations span{
@@ -245,7 +250,7 @@ font-size: 1.2em;
     header img{
         width: 35%;
         margin: auto;
-        border-radius: 50%;
+        border-radius: 40%;
     }
 }
 
